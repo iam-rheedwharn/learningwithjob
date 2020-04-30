@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <title>
+    learning with JOB
+  </title>
+<head>
+<style>
+body{
+     /* background-color: white; */
+    background-image: url("bacground.png");
+    background-repeat:no-repeat;
+    background-position:unset;
+    background-size: cover;
+    width: auto;
+    
+}
+.info{
+    width: 20%;
+    margin-left: 200px;
+    float: left;
+    margin: 0;
+    padding: 10em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+footer{
+  font-size: 0.90em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: teal;
+
+}
+.contact{
+    width: 25%;
+    float:right;
+    margin-right: 300px;
+    padding: 1em;
+    overflow: hidden;
+}
+input, button, textarea{
+    margin: 0.2em;
+    padding: 0.5em;
+    border: 0.5px solid black;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+li {
+    float: left;
+    list-style-type: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: teal;
+}
+.selected {
+  background-color: green;
+}
+</style>
+</head>
+<header>
+    <h3>Learning With JOB</h3>
+ </header>
+   
+<body>
+    <div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="selected">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>      
+          <section class="info">
+              <i></i> Kwara State, NG<br>
+              <i></i> Phone: +234 8100009090<br>
+              <i></i> Email: learnwithjob@gmail.com<br>
+          </section>
+          <section class="contact">
+            <p><b> Drop us a note!</b></p>
+            <h4 style="color:red;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+              You can decide to leave us a note on how to improve on our services and other 
+              aspects you think we need to improve in. Thank you.
+            </h4>
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Email">
+              <textarea name="comment" placeholder="Type your comment here..." cols="30" rows="10"></textarea><br>
+              <button >SEND</button>
+          </section>
+      </div>
+       <footer>Copyright &copy Larning with JOB 2020</footer>
+</body>
+

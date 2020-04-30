@@ -1,0 +1,1 @@
+This is a learning process with JOB during the COVID-19 lockdown.
